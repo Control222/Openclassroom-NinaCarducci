@@ -1,15 +1,3 @@
-# Questions
-
-1. Comment utiliser GTmetrix? Site n'est pas en ligne ?
-2. Réaliser un audit ?
-   1. Tout essayer ?
-   2. Word/Excel?
-3. Images ? Comment changer leur taille ?
-   1. Articles linked dans l'énoncé sur possibilités. Préférence ?
-   2. Quand taille/type/etc.. changer, supprimer celles déjà présentes dans images ? Et les remplacer ?
-4. Chrome principalement utiliser ? Préférence pour Firefox..
-5. Javascript utiliser jQuery?
-
 Verifier cache (image?)
 shift + icon rafraichisemment navigateur pour vider cache
 consol -> application pour vider lee cache
@@ -36,6 +24,8 @@ essayer transformer application en pwa
 9. Ajout des meta tags :
    1. Meta Tags Open Graph (Facebook, LinkedIn)
    2. Meta Tags Twitter
+10. Suppression du dossier bootstrap
+11. Ajout des <link> et <scropt> CDN de bootstrap
 
 # CSS
 
@@ -54,3 +44,9 @@ essayer transformer application en pwa
 
 Poids des images avant changement : 29.4 mo
 Poids des images après changement : ----------
+
+# MINIMIFICATION
+
+1. Minimifcation du fichier style.css -> style.min.css
+2. Minimifcation du fichier scripts.js -> scripts.min.js
+3. Minimifcation du fichier maugallery.js -> maugallery.min.js
