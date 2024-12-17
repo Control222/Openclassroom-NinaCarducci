@@ -28,6 +28,10 @@ img {
   font-size: 26px;
 }
 
+.visually-hidden {
+  color: #000;
+}
+
 .nav ul {
   display: flex;
   list-style-type: none;
@@ -83,7 +87,6 @@ img {
 
 #about-me {
   flex: 2;
-  text-align: justify;
 }
 
 .about-me__title {
@@ -116,7 +119,7 @@ img {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000;
   background-color: #beb45a;
   border-radius: 0;
 }

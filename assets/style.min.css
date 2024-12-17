@@ -67,6 +67,9 @@ img {
 .top-header .name {
   font-size: 26px;
 }
+.visually-hidden {
+  color: #000;
+}
 .nav ul {
   list-style-type: none;
   font-size: 14px;
@@ -101,7 +104,6 @@ img {
 }
 #about-me {
   flex: 2;
-  text-align: justify;
 }
 .about-me__title {
   margin-top: 1em;
@@ -126,7 +128,7 @@ img {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000;
   background-color: #beb45a;
   border-radius: 0;
 }
