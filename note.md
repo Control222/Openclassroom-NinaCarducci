@@ -27,6 +27,7 @@ essayer transformer application en pwa
 10. Suppression du dossier bootstrap
 11. Ajout des <link> et <scropt> CDN de bootstrap
 12. Utiliser <section>
+13. Ajouter attribut <required> pour les inputs
 
 # CSS
 
