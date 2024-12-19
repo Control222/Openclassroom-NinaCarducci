@@ -12,7 +12,6 @@
 .service,
 .top-header {
   background-color: #fff;
-  display: flex;
 }
 #about,
 #contact {
@@ -27,13 +26,21 @@
   bottom: 0;
   z-index: -1;
 }
+.footer_left ul,
+.nav ul {
+  list-style-type: none;
+  display: flex;
+}
 #about,
 #contact .container,
+.footer_left ul,
 .mg-next,
 .mg-prev,
 .nav ul,
 .service,
 .top-header,
+footer,
+footer .footer_right,
 form {
   display: flex;
 }
@@ -71,7 +78,6 @@ img {
   color: #000;
 }
 .nav ul {
-  list-style-type: none;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -102,7 +108,8 @@ img {
 .picture picture {
   width: 100%;
 }
-#about-me {
+#about-me,
+.form-container {
   flex: 2;
 }
 .about-me__title {
@@ -163,7 +170,6 @@ img {
 }
 form input,
 form textarea {
-  width: 100%;
   background-color: transparent;
   border: 1px solid;
   margin-bottom: 20px;
@@ -217,18 +223,17 @@ form textarea {
   position: absolute;
   right: 0;
 }
-.form-container {
-  flex: 2;
-}
 form {
   flex-direction: column;
   width: 70%;
   align-items: flex-start;
 }
 form input {
+  width: 100%;
   height: 2.5em;
 }
 form textarea {
+  width: 100%;
   height: 5em;
   line-height: 2.5em;
   font-size: 1.2em;
@@ -236,6 +241,34 @@ form textarea {
 input[type='submit'] {
   background-color: #beb45a;
   padding: 0.5em 1em;
+}
+footer {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .footer_left {
+  width: 100%;
+  padding: 2em;
+}
+.footer_left ul {
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+footer .footer_right {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  width: 100%;
+}
+.footer_right p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 @media all and (max-width: 1180px) {
   .picture {
@@ -339,5 +372,10 @@ input[type='submit'] {
   }
   .picture {
     width: 80%;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }

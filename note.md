@@ -26,6 +26,7 @@ essayer transformer application en pwa
    2. Meta Tags Twitter
 10. Suppression du dossier bootstrap
 11. Ajout des <link> et <scropt> CDN de bootstrap
+12. Utiliser <section>
 
 # CSS
 
