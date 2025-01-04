@@ -1,10 +1,3 @@
-Verifier cache (image?)
-shift + icon rafraichisemment navigateur pour vider cache
-consol -> application pour vider lee cache
-storage clear
-essayer transformer application en pwa
-(manifest pwa + service workers)
-
 # DEBUG
 
 1. Navigation galerie = index = i; => index = i - 1 (previous) / index = i + 1(next)
@@ -47,8 +40,9 @@ essayer transformer application en pwa
 Poids des images avant changement : 29.4 mo
 Poids des images après changement : ----------
 
-# MINIMIFICATION
+# MINIFIER
 
-1. Minimifcation du fichier style.css -> style.min.css
-2. Minimifcation du fichier scripts.js -> scripts.min.js
-3. Minimifcation du fichier maugallery.js -> maugallery.min.js
+1. Minifier fichier style.css -> style.min.css
+2. Minifier fichier scripts.js -> scripts.min.js
+3. Minifier fichier maugallery.js -> maugallery.min.js
+4. Minifier fichier index.js -> index.min.js
